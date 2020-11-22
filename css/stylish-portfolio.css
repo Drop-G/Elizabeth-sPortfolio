@@ -86,17 +86,12 @@ h6 {
 }
 
 .masthead {
-  min-height: 30rem;
-  position: relative;
-  display: table;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/ElizabethHeadshot1(8x10)jpg.jpg");
-  background-repeat: no-repeat;
-  width: 10px;
-  float: left;
 }
 
 .masthead h1 {
